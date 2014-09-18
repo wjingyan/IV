@@ -62,19 +62,19 @@ public class RemoveBSTNode {
 	public static void main (String[] args) {
 		RemoveBSTNode i = new RemoveBSTNode();
 
-		//case 1
+		//case 1: remove root right child 20
 		TreeNode root1 = Utils.preOrderDeserializer("30 10 50 # # # 20 45 # # 35 # #");
 		TreeNode node1 = root1.right;
 		i.removeBSTNode(node1, root1);
 		System.out.println(Utils.preOrderSerializer(root1));
 
-		//case 2
+		//case 2: remove root left child 10
 		TreeNode root2 = Utils.preOrderDeserializer("30 10 50 # # # 20 45 # # 35 # #");
 		TreeNode node2 = root2.left;
 		i.removeBSTNode(node2, root2);
 		System.out.println(Utils.preOrderSerializer(root2));
 
-		//case 3
+		//case 3: remove level 2 left most child 50
 		TreeNode root3 = Utils.preOrderDeserializer("30 10 50 # # # 20 45 # # 35 # #");
 		TreeNode node3 = root3.left.left;
 		i.removeBSTNode(node3, root3);
