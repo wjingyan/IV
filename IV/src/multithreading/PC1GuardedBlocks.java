@@ -71,7 +71,7 @@ class Consumer1 implements Runnable {
 	}
 }
 
-public class PCGuardedBlocks {
+public class PC1GuardedBlocks {
 	public static void main(String[] args) {
 		Drop drop = new Drop();
 		(new Thread(new Producer1(drop))).start();

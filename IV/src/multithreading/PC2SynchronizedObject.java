@@ -8,7 +8,7 @@ package multithreading;
 
 import java.util.Vector;
 
-public class PCSynchronizedObject {
+public class PC2SynchronizedObject {
 
      public static void main(String args[]) {
          Vector sharedQueue = new Vector();
