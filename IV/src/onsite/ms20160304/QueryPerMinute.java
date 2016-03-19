@@ -1,4 +1,4 @@
-package onsite.ms20150304;
+package onsite.ms20160304;
 /*
  * 3 Design a class that's able to give average qps in the past minute
  * This is an inaccurate method
